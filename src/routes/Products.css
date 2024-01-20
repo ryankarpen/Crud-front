@@ -1,0 +1,38 @@
+.products-container{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 0 1rem;
+}
+
+
+.products-container h1{
+    margin: 20px;
+}
+
+
+.product-container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+
+.product-details{
+    border: 1px solid #8A2BE2;
+    width: 300px;
+    height: 220px;
+    padding: 1rem;
+    text-align: start;
+    background-color: #fff;
+}
+
+
+.product-details h2, p{
+    margin-bottom: 10px;
+}
+
+
+.product-details button, a{
+    margin-right: 5px;
+}

@@ -1,0 +1,21 @@
+.navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background-color: 	#191970;
+    padding: 2rem 1rem;
+}
+
+.navbar h1{
+    font-size: 2rem;
+    color: #8A2BE2;
+    font-weight: bold;
+}
+
+
+nav ul{
+    display: flex;
+    gap: 2rem;
+}
+
