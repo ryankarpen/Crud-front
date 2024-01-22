@@ -1,4 +1,4 @@
-import axios from 'axios'
+import axios from 'redaxios'
 
 const productFetch = axios.create({
     baseURL: "https://api-register-product.onrender.com/api/",
